@@ -39,5 +39,15 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "jest": {
+    "coverageThreshold": {
+      "global": {
+        "branches": 90
+      }
+    }
+  },
+  "devDependencies": {
+    "axios": "^0.21.0"
   }
 }
